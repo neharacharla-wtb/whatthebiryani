@@ -2,52 +2,66 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .coming-soon {
-
+    background: url(../images/brick-wall-1834784.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
 }
-.top-logo{
-    position: absolute;
-    z-index: 999;
-    left: 25%;
+.coming-soon-content {
+    margin: 0 auto;
+    display: grid;
+    width: 60%;
+    text-align: center;
+    height: 100%;
+    align-content: center;
 }
 .top-logo img{
     object-fit: contain;
     object-position: 50% 50%;
     font-family: 'object-fit: cover; object-position: 50% 50%;';
-    width: 70%;
-    height: 200px;
+    width: 100%;
 }
-.bg-image-wrap{
-    background: url(../images/brick-wall-1834784.jpg) no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    font-size: 46px;
+.top-logo {
+    margin-bottom: 80px;
+}
+.coming-soon-content h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 900;
     color: #fff;
-    filter: blur(4px);
 }
-
-.coming-soon-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 46px;
-}
-
 .timer-section {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
 }
+.timer-section div {
+    font-size: 20px;
+    justify-content: center;
+    border:3px solid #f6dd00;
+    border-radius: 5px;
+    padding: 0;
+}
 .timer-section div span {
-    background-color:#f6dd00;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.timer-section div span.text {
+    font-size: 20px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-top: 3px solid #f6dd00;
+    background: #f6dd00;
     color: #000;
+}
+@media screen and (max-width: 767px) {
+    .coming-soon-content {
+        width: 80%;
+    }
 }

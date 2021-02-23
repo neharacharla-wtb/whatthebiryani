@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date('Jan 5, 2022 15:37:25').getTime();
+var countDownDate = new Date('March 5, 2021 12:00:00').getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -17,10 +17,10 @@ var x = setInterval(function () {
 
   // Display the result in an element with id="demo"
   document.getElementById('demo').innerHTML =
-    '<div><span>' + days + '</span> Days</div>' +
-    '<div><span>' + hours + '</span> Hrs</div>' +
-    '<div><span>' + minutes + '</span> Min</div>' +
-    '<div><span>' + seconds + '</span> Sec</div>';
+    '<div><span>' + days + '</span><span class="text">Days</span></div>' +
+    '<div><span>' + hours + '</span><span class="text">Hrs</span></div>' +
+    '<div><span>' + minutes + '</span><span class="text">Min</span></div>' +
+    '<div><span>' + seconds + '</span><span class="text">Sec</span></div>';
 
   // If the count down is finished, write some text
   if (distance < 0) {

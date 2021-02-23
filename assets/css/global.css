@@ -1,6 +1,32 @@
 .coming-soon {
+    
+}
+.top-logo{
+    position: absolute;
+    z-index: 999;
+    left: 25%;
+}
+.top-logo img{
+    object-fit: contain;
+    object-position: 50% 50%;
+    font-family: 'object-fit: cover; object-position: 50% 50%;';
+    width: 70%;
+    height: 200px;
+}
+.bg-image-wrap{
     background: url(../images/brick-wall-1834784.jpg) no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    filter: blur(4px);
+}
+.coming-soon-content{
+    position: absolute;
+    z-index: 999;
+    height: auto;
+    left: 25%;
+    background: #fff;
+    width: 600px;
+    top: 40%;
+    padding: 40px;
 }

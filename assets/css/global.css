@@ -3,7 +3,11 @@ body {
 }
 .coming-soon {
     background: url(../images/coming-soon-bg.jpg) no-repeat;
-
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-size: 46px;
+    color: #fff;
 }
 .coming-soon-content {
     margin: 0 auto;

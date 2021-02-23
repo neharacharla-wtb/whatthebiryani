@@ -26,15 +26,14 @@ body {
     filter: blur(4px);
 }
 
-  /* Position text in the middle */
-  .middle {
+.coming-soon-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 46px;
-  }
+}
 
 .timer-section {
     display: grid;
@@ -51,15 +50,4 @@ body {
     justify-content: center;
     align-items: center;
     color: #000;
-}
-
-.coming-soon-content{
-    position: absolute;
-    z-index: 999;
-    height: auto;
-    left: 25%;
-    background: #fff;
-    width: 600px;
-    top: 40%;
-    padding: 40px;
 }

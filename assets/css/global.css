@@ -1,6 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .coming-soon {
     background: url(../images/brick-wall-1834784.jpg) no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    font-size: 46px;
+    color: #fff;
+}
+
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 46px;
+  }
+
+.timer-section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.timer-section div span {
+    background-color:#f6dd00;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
 }

@@ -37,6 +37,8 @@ body {
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    width: 500px;
+    margin: 0 auto;
 }
 .timer-section div {
     font-size: 20px;
@@ -61,8 +63,19 @@ body {
     background: #f6dd00;
     color: #000;
 }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .coming-soon-content h1 {
+        font-size: 60px;
+    }
+}
 @media screen and (max-width: 767px) {
     .coming-soon-content {
         width: 80%;
+    }
+    .coming-soon-content h1 {
+        font-size: 50px;
+    }
+    .timer-section {
+        width: 100%;
     }
 }

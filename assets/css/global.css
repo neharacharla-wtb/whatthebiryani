@@ -27,9 +27,9 @@ body {
     margin-bottom: 80px;
 }
 .coming-soon-content h1 {
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 30px;
-    font-weight: 900;
+    font-weight: 200;
     color: #fff;
 }
 .timer-section {
@@ -63,17 +63,17 @@ body {
     background: #f6dd00;
     color: #000;
 }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-    .coming-soon-content h1 {
-        font-size: 60px;
-    }
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
 @media screen and (max-width: 767px) {
     .coming-soon-content {
         width: 80%;
-    }
-    .coming-soon-content h1 {
-        font-size: 50px;
     }
     .timer-section {
         width: 100%;

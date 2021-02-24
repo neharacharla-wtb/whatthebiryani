@@ -63,13 +63,27 @@ body {
     background: #f6dd00;
     color: #000;
 }
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+.social-icons {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    align-content: center;
+    grid-gap: 20px;
+}
+.social-icons a {
+    width: 40px;
+    border: 2px solid #fff;
+    height: 40px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    align-content: center;
+}
+.social-icons a img {
+    width: auto;
+    height: 20px;
 }
 @media screen and (max-width: 767px) {
     .coming-soon-content {

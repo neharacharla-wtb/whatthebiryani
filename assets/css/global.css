@@ -10,10 +10,11 @@ header {
     height: 700px;
     background: url(../images/coming-soon-bg.jpg) no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 footer {
-    background: #000 url(../images/light-wool.png) ;
+    background: #000 url(../images/footer-bg.jpg) ;
     border-top: 20px solid #f6dd00;
     padding: 100px;
     display: grid;
@@ -63,7 +64,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 40px 60px;
-    background: #060606a3;
+    background: linear-gradient(black, #13131300);
 }
 .banner .top-nav .logo{
     padding: 10px;
@@ -99,7 +100,7 @@ footer {
 }
 .banner .intro-text{
     text-align: center;
-    padding: 130px 0px 40px;
+    padding: 100px 0px 40px;
 }
 .banner .intro-text h3{
     font-size: 38px;

@@ -186,10 +186,7 @@ footer {
 
 }
 .map-section {
-    background: url(../images/map-bg.jpg) center no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    background:#fff;
     justify-content: center;
 }
 .coming-soon {

@@ -7,7 +7,7 @@ h5 {
     margin: 0 0 30px 0;
 }
 header {
-    height: 600px;
+    height: 700px;
     background: url(../images/coming-soon-bg.jpg) no-repeat;
     background-size: cover;
 }
@@ -78,6 +78,7 @@ footer {
 .banner .top-nav .utility-buttons{
     flex: 2;
     text-align: right;
+    margin-top: 15px;
 }
 .banner .top-nav .utility-buttons .contact{
     display: inline-block;
@@ -98,12 +99,12 @@ footer {
 }
 .banner .intro-text{
     text-align: center;
-    padding: 40px 0px;
+    padding: 130px 0px 40px;
 }
 .banner .intro-text h3{
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bold;
-    line-height: 52px;
+    line-height: 45px;
     margin: 20px 0px;
     color: #fff;
 }
@@ -121,11 +122,12 @@ footer {
     color: #000;
     background: #f6dd00;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 600;
     padding: 14px 20px;
     display: block;
     width: 120px;
     margin: 40px auto;
+    letter-spacing: 0.6px;
 }
 .map_inner {
     border: 10px solid #fff;

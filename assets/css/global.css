@@ -182,6 +182,13 @@ footer {
     margin-top: 10px;
 
 }
+.map-section {
+    background: url(../images/map-bg.jpg) center no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
 .coming-soon {
     background: url(../images/coming-soon-bg.jpg) no-repeat;
     background-size: cover;

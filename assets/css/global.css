@@ -22,7 +22,111 @@ footer {
     margin: 100px 0 0 0;
     color: #f6dd00;
 }
+.about-section-main .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about-section-main .inner .text-col{
+    flex: 1.5;
+}
+.about-section-main .inner .image-col{
+    flex: 1;
+}
+.about-section-main .inner .image-col img{
+    object-fit: cover;
+    object-position: 50% 50%;
+    font-family: 'object-fit: cover; object-position: 50% 50%;';
+    width: 100%;
+    height: 550px;
+}
+.about-section-main .inner .text-col .intro{
+    max-width: 70%;
+    width: 100%;
+    margin: 30px auto;
+}
+.about-section-main .inner .text-col .intro h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0px;
+    line-height: 45px;
+}
+.about-section-main .inner .text-col .intro p{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22px;
+    margin: 10px 0px 20px;
+}
 
+.banner .top-nav{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 60px;
+    background: #060606a3;
+}
+.banner .top-nav .logo{
+    padding: 10px;
+}
+.banner .top-nav .logo img{
+    object-fit: contain;
+    object-position: 50% 50%;
+    font-family: 'object-fit: contain; object-position: 50% 50%;';
+    width: 350px;
+    height: auto;
+}
+.banner .top-nav .utility-buttons{
+    flex: 2;
+    text-align: right;
+}
+.banner .top-nav .utility-buttons .contact{
+    display: inline-block;
+}
+.banner .top-nav .utility-buttons .get-directions{
+    display: inline-block;
+}
+.banner .top-nav .utility-buttons a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #f6dd00;
+    padding: 8px 15px;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0px 10px;
+}
+.banner .intro-text{
+    text-align: center;
+    padding: 40px 0px;
+}
+.banner .intro-text h3{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 52px;
+    margin: 20px 0px;
+    color: #fff;
+}
+.banner .intro-text h1{
+    font-size: 65px;
+    line-height: 74px;
+    font-weight: bolder;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #f6dd00;
+    margin: 20px 0px 30px;
+}
+.banner .intro-text .view-menu{
+    text-decoration: none;
+    color: #000;
+    background: #f6dd00;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 14px 20px;
+    display: block;
+    width: 120px;
+    margin: 40px auto;
+}
 .map_inner {
     border: 10px solid #fff;
 }

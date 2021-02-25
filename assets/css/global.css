@@ -8,20 +8,21 @@ h5 {
 }
 header {
     height: 700px;
-    background: url(../images/coming-soon-bg.jpg) no-repeat;
+    background: url(../images/WTB.jpg) no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
 }
 
 footer {
-    background: #000 url(../images/footer-bg.jpg) ;
-    border-top: 20px solid #f6dd00;
+    background: #000 url(../images/footer-bg.jpg);
+    border-top: 10px solid #f6dd00;
     padding: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
-    margin: 100px 0 0 0;
+    margin: 0px 0 0 0;
     color: #f6dd00;
+    background-position: bottom;
 }
 .about-section-main .inner{
     display: flex;
@@ -33,7 +34,7 @@ footer {
     flex: 1.5;
 }
 .about-section-main .inner .image-col{
-    flex: 1;
+    flex: 0.6;
 }
 .about-section-main .inner .image-col img{
     object-fit: cover;
@@ -188,6 +189,9 @@ footer {
 .map-section {
     background:#fff;
     justify-content: center;
+    position: relative;
+    margin-top: -55px;
+    z-index: 99999 !important;
 }
 .coming-soon {
     background: url(../images/coming-soon-bg.jpg) no-repeat;

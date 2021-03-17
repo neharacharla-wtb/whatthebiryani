@@ -428,7 +428,50 @@ footer {
 	opacity: 0;	
 	transform: scale(0.1, 1);
 }
-
+.phn-addres{
+  /* margin: 20px 0px; */
+}
+.phn-addres a{
+  font-size: 28px;
+  line-height: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  width: 80%;
+  display: block;
+  margin: 0 auto 20px;
+}
+.phn-addres a span{
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.phn-addres a span img{
+  width: 25px;
+  height: 25px;
+}
+.phn-addres a:hover{
+  border-bottom: 2px solid #fff;
+  width: 30%;
+  color: #f6dd01;
+}
+.phn-addres p{
+  font-size: 25px;
+  line-height: 35px;
+}
+.phn-addres p span{
+  width: 20px;
+  height: 28px;
+  margin-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.phn-addres p span img{
+  width: 20px;
+  height: 28px;
+}
 
 /* Our mixin positions a copy of our text
  directly on our existing text, while

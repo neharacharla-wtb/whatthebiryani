@@ -437,7 +437,7 @@ footer {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
-  width: 80%;
+  width: 35%;
   display: block;
   margin: 0 auto 20px;
 }
@@ -746,7 +746,7 @@ footer {
     }
     .phn-addres a:hover{
       border-bottom: 2px solid #fff;
-      width: 90%;
+      width: 100%;
       color: #f6dd01;
     }
 }

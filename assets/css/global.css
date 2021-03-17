@@ -740,6 +740,10 @@ footer {
     .menu-box{
       width: 60%;
     }
+    .phn-addres a{
+      width: 100%;
+      font-size: 25px;
+    }
     .phn-addres a:hover{
       border-bottom: 2px solid #fff;
       width: 90%;
